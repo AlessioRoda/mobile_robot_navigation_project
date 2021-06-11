@@ -38,10 +38,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  RandomPosition.srv
-)
+#add_service_files(
+ # FILES
+
+#)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
@@ -101,16 +101,16 @@ include_directories(
  #)
 
 ## Declare a cpp executable
- add_executable(position_server src/position_server.cpp)
+ #add_executable(position_server src/position_server.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
-add_dependencies(position_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+#add_dependencies(position_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(position_server
-   ${catkin_LIBRARIES}
- )
+ #target_link_libraries(position_server
+  # ${catkin_LIBRARIES}
+ #)
 
 #############
 ## Install ##
