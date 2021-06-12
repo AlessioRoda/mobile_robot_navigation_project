@@ -75,12 +75,6 @@ catkin_package(
 catkin_install_python(PROGRAMS
   scripts/odometry_publisher.py
   scripts/server_endpoint.py
-  scripts/robot_user_interface.py
-  scripts/bug_m.py
-  scripts/go_to_point_service_m.py
-  scripts/wall_follow_service_m.py
-  scripts/user_interface.py
-  scripts/navigation.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
