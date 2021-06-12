@@ -84,6 +84,12 @@ The navigation package, in order to use move_base planner.
  ```
  sudo apt-get install ros-noetic-openslam-gmapping
  ```
+ 
+ In order to use the gmapping package you must install and make the slam_gmapping pkg into your ROS workspace.
+ To do this step please move into your src folder and run the following command:
+ ```
+ git clone https://github.com/ros-perception/slam_gmapping
+``` 
 ### Start the simulation:
 
 In order to run the simulation do the following commands:
