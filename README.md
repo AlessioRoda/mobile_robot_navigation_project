@@ -28,7 +28,9 @@ The following UML represent the component description of the architecture and th
 
 ### UML Component Diagram:
 
-  ![MicrosoftTeams-image](https://user-images.githubusercontent.com/48509825/120934063-1d910180-c6fd-11eb-9e03-1071240c0af2.png)
+![Component_Diagram](https://user-images.githubusercontent.com/48509825/121780122-3ab34d80-cb9f-11eb-8466-50d92285b05c.png)
+
+
 
 ### UML Temporal Diagram:
 
